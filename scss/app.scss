@@ -46,8 +46,20 @@ section.projects {
 	}
 	h1, h2, h3, h4, h5 {
 		color: #fff
-	}	
+	}
 }
-body .row {
+body section.row {
 	padding: 3rem 0;
+}
+
+.social a, .social h1, h2, h3, h4, h5 {
+color: #fff;
+	.fa {
+		font-size: 2.6rem;
+	}
+}
+
+body > div.social {
+	padding-top:1em;
+	background-color: #66D9EF;
 }
