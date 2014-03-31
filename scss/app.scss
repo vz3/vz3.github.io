@@ -38,17 +38,21 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-section.projects {background-image: url('../static/grid_l.png');background-color: #272822;color: #fff}
 section.projects {
-	background-color: #272822;
-	a {
-		color: #FD971F;
-	}
+	background-image: url('../static/grid_l.png');
+	background-color: #444;
+ 	color: #ffffff;
 	h1, h2, h3, h4, h5 {
-		color: #fff
+		color: #ffffff;
 	}
 }
-body section.row {
+
+div.hero {
+	background: url('../static/bg.jpg');
+	background-size: cover;
+}
+
+section.projects, div.hero {
 	padding: 3rem 0;
 }
 
@@ -60,6 +64,6 @@ color: #fff;
 }
 
 body > div.social {
-	padding-top:1em;
+	padding-top:1.875rem;
 	background-color: #66D9EF;
 }

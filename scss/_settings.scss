@@ -40,8 +40,8 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
-// $body-bg: url('../static/grid_d.png');
-$body-font-color: #333;
+// $body-bg: url('../static/bg.jpg') 80% center fixed;
+$body-font-color: #ffffff;
 // $body-font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-family: "Century Schoolbook","schoolbook-web", Garamond, Georgia, serif;
 // $body-font-weight: normal;
@@ -59,7 +59,7 @@ $body-font-weight: 400;
 // We use these as default colors throughout
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
-$primary-color: #008CBA;
+$primary-color: #FD971F;
 $secondary-color: #333;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -124,7 +124,7 @@ $secondary-color: #333;
 // $header-font-family: $body-font-family;
 // $header-font-weight: normal;
 // $header-font-style: normal;
-$header-font-color: #333;
+$header-font-color: #ffffff;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
