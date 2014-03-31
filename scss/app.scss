@@ -38,5 +38,16 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-
-.social a { color: $body-font-color }
+section.projects {background-image: url('../static/grid_l.png');background-color: #272822;color: #fff}
+section.projects {
+	background-color: #272822;
+	a {
+		color: #FD971F;
+	}
+	h1, h2, h3, h4, h5 {
+		color: #fff
+	}	
+}
+body .row {
+	padding: 3rem 0;
+}
