@@ -59,11 +59,17 @@ section.projects, div.hero {
 .social a, .social h1, h2, h3, h4, h5 {
 color: #fff;
 	.fa {
-		font-size: 2.6rem;
+		font-size: 2.2rem;
 	}
 }
 
-body > div.social {
-	padding-top:1.875rem;
+body > .social {
+	/*padding-top:1.875rem;*/
 	background-color: #66D9EF;
+	border-bottom: 0.32rem solid #4fa9ba;
+	padding: 0.8rem 0 0 0;
+}
+
+body > .social [class*="block-grid-"]>li {
+	padding-bottom: 0.8rem;
 }
