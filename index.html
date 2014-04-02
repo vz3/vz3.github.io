@@ -61,16 +61,39 @@
 
     <section class="projects">
       <section class="row">
-        <div class="small-12 small-centered columns">
+
+        <div class="small-10 medium-8 small-centered columns">
           <header>
             <h2 class="text-center">Projects</h2>
           </header>
-          <ul class="small-block-grid-1 medium-block-grid-3 text-center">
-            <li class="project"><a href="#"><img src="./static/tn_data.png" /></a></li>
-            <li class="project"><a href="#"><img src="./static/tn_cfpb.png" /></a></li>
-            <li class="project"><a href="#"><img src="./static/tn_ofa.png" /></a></li>
+
+          <ul class="small-block-grid-3 text-center">
+            <li class="project" data-orbit-link="slide-1" ><a href="#"><img src="./static/tn_data.png" /></a></li>
+            <li class="project" data-orbit-link="slide-2" ><a href="#"><img src="./static/tn_cfpb.png" /></a></li>
+            <li class="project" data-orbit-link="slide-3" ><a href="#"><img src="./static/tn_ofa.png" /></a></li>
           </ul>
         </div>
+
+        <div class="small-12 medium-8 small-centered columns">
+            <div class="slideshow-wrapper">
+                <div class="preloader"></div>
+                <ul data-orbit data-options="slide_number:false;timer:false;bullets:false;timer_speed:9999999">
+                    <li data-orbit-slide="slide-1">
+                        <img src="./static/tn_data.png" />
+                        <div class="orbit-caption">insert the image caption here</div>
+                    </li>
+                    <li data-orbit-slide="slide-2">
+                        <img src="./static/tn_cfpb.png" />
+                        <div class="orbit-caption">insert the image caption here</div>
+                    </li>
+                    <li data-orbit-slide="slide-3">
+                        <img src="./static/tn_ofa.png" />
+                        <div class="orbit-caption">insert the image caption here</div>
+                    </li>
+                </ul>
+            </div><!--slideshow-wrapper-->
+        </div><!--columns-->
+
         <div class="small-12 medium-10 large-8 medium-centered columns">
             <h3>Additional projects</h3>
             <ul>
@@ -78,15 +101,19 @@
               <li>Consumer Financial Protection Bureau - <a href="http://www.consumerfinance.gov/es/">Spanish page</a>, <a href="http://www.consumerfinance.gov/open-for-suggestions/">Open for Suggestions campaign</a>, <a href="http://www.youtube.com/playlist?list=PL4DF0E02026116FC5">videos</a></li>
               <li>ThinkProgress Blog Posts - <a href="http://thinkprogress.org/politics/2009/07/29/53353/palin-energy-twitter/">Palin Twitter analysis</a>, <a href="http://thinkprogress.org/politics/2009/07/31/53830/bonner-forgery/">NAACP letter forgery</a>, <a href="https://www.youtube.com/watch?v=p5O8KZuYnpM">Rick scott video</a>.
               </li>
-            </ul>
+            </ul>          
         </div>
+
         <div class="small-12 medium-10 large-8 medium-centered columns">
           <header>
             <h2 class="text-center">Remainders</h2>
           </header>
-          <p><a href="/static/resume.pdf">One-page resume (pdf)</a></p>
-          <p>For inquiries, email <a href="mailto:victor@vz3.co">victor@vz3.co</a></p>
+          <ul class="no-bullet">
+            <li><a href="/static/resume.pdf">Download resume (pdf)</a></li>
+            <li><a href="mailto:victor@vz3.co">Email me</a></li>
+          </ul>
         </div>
+
       </section><!--row-->
     </section><!--projects-->
 

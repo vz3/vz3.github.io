@@ -714,7 +714,7 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 
 // We use these to control the caption styles
 // $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
+$orbit-caption-bg: rgba(51,51,51, 0.8);
 // $orbit-caption-font-color: #fff;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
@@ -727,9 +727,15 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // $orbit-nav-arrow-color: #fff;
 // $orbit-nav-arrow-color-hover: #fff;
 
+$orbit-nav-bg: rgba(0,0,0,0.09);
+$orbit-nav-bg-hover: rgba(0,0,0,0.3);
+$orbit-nav-arrow-color: rgba(0,0,0,0.3);
+$orbit-nav-arrow-color-hover: #444;
+
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
 // $orbit-timer-show-progress-bar: true;
+$orbit-timer-show-progress-bar: false;
 
 // We use these to control the bullet nav styles
 // $orbit-bullet-nav-color: #ccc;
@@ -738,12 +744,12 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 
 // We use these to controls the style of slide numbers
 // $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
+// $orbit-slide-number-font-color: #333;
 // $orbit-slide-number-padding: rem-calc(5);
 
 // Graceful Loading Wrapper and preloader
-// $wrapper-class: "slideshow-wrapper";
-// $preloader-class: "preloader";
+$wrapper-class: "slideshow-wrapper";
+$preloader-class: "preloader";
 
 // Pagination
 
