@@ -53,14 +53,12 @@ div.hero {
 }
 
 section.projects, div.hero {
-	padding: 1rem 0;
+	padding: rem-calc(30) 0;
 }
 
-.social a, .social h1, h2, h3, h4, h5 {
-color: #fff;
-	.fa {
+.social a .fa {
+		color: #fff;
 		font-size: 2.2rem;
-	}
 }
 
 body > .social {
@@ -71,5 +69,5 @@ body > .social {
 }
 
 body > .social [class*="block-grid-"]>li {
-	padding-bottom: 0.8rem;
+	//padding-bottom: 0.8rem;
 }
