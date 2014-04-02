@@ -912,7 +912,7 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // $include-html-nav-classes: $include-html-classes;
 
 // We use this to control padding.
-$side-nav-padding: rem-calc(14 0);
+// $side-nav-padding: rem-calc(14 0);
 
 // We use these to control list styles.
 // $side-nav-list-type: none;
@@ -920,10 +920,10 @@ $side-nav-padding: rem-calc(14 0);
 // $side-nav-list-margin: rem-calc(0 0 7 0);
 
 // We use these to control link styles.
-$side-nav-link-color: $secondary-color;
-$side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
-$side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
-$side-nav-font-size: rem-calc(14);
+// $side-nav-link-color: $secondary-color;
+// $side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%);
+// $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%);
+// $side-nav-font-size: rem-calc(14);
 // $side-nav-font-weight: normal;
 // $side-nav-font-family: $body-font-family;
 // $side-nav-active-font-family: $side-nav-font-family;

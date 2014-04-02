@@ -49,8 +49,15 @@ section.projects {
 
 div.hero {
 	/*background: url('../static/bg.jpg');*/
-	background-position: right bottom;
+	background-position: center;
 	background-size: cover;
+	header {
+		padding-bottom: rem-calc(20);
+		padding-top: rem-calc(20);
+	}
+	.tagline {
+		padding-bottom: rem-calc(20);
+	}
 }
 
 section.projects, div.hero {
