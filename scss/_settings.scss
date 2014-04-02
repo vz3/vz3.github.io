@@ -161,8 +161,8 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-// $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-font-size: 1.1rem;
+$paragraph-line-height: 1.8;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -175,9 +175,9 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // $code-font-weight: bold;
 
 // We use these to style anchors
-// $anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 // $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -713,10 +713,10 @@ $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // $include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
-// $orbit-container-bg: none;
-$orbit-caption-bg: rgba(51,51,51, 0.8);
+$orbit-container-bg: white;
+$orbit-caption-bg: rgba(50,50,50, 0.70);
 // $orbit-caption-font-color: #fff;
-// $orbit-caption-font-size: rem-calc(14);
+$orbit-caption-font-size: rem-calc(18);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
 // $orbit-caption-padding: rem-calc(10 14);
 // $orbit-caption-height: auto;
@@ -727,7 +727,7 @@ $orbit-caption-bg: rgba(51,51,51, 0.8);
 // $orbit-nav-arrow-color: #fff;
 // $orbit-nav-arrow-color-hover: #fff;
 
-$orbit-nav-bg: rgba(0,0,0,0.09);
+$orbit-nav-bg: rgba(0,0,0,0.0);
 $orbit-nav-bg-hover: rgba(0,0,0,0.3);
 $orbit-nav-arrow-color: rgba(0,0,0,0.3);
 $orbit-nav-arrow-color-hover: #444;
