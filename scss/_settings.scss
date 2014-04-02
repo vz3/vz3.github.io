@@ -175,7 +175,7 @@ $paragraph-line-height: 1.8;
 // $code-font-weight: bold;
 
 // We use these to style anchors
-$anchor-text-decoration: underline;
+// $anchor-text-decoration: underline;
 // $anchor-font-color: $primary-color;
 $anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
 
@@ -714,19 +714,14 @@ $anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
 
 // We use these to control the caption styles
 $orbit-container-bg: white;
-$orbit-caption-bg: rgba(50,50,50, 0.70);
-// $orbit-caption-font-color: #fff;
+$orbit-caption-bg: #fff;
+$orbit-caption-font-color: #333;
 $orbit-caption-font-size: rem-calc(18);
-// $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
-// $orbit-caption-padding: rem-calc(10 14);
+$orbit-caption-position: "under"; // Supported values: "bottom", "under"
+$orbit-caption-padding: rem-calc(10 14);
 // $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
-// $orbit-nav-bg: none;
-// $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: #fff;
-// $orbit-nav-arrow-color-hover: #fff;
-
 $orbit-nav-bg: rgba(0,0,0,0.0);
 $orbit-nav-bg-hover: rgba(0,0,0,0.3);
 $orbit-nav-arrow-color: rgba(0,0,0,0.3);
@@ -734,7 +729,6 @@ $orbit-nav-arrow-color-hover: #444;
 
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
-// $orbit-timer-show-progress-bar: true;
 $orbit-timer-show-progress-bar: false;
 
 // We use these to control the bullet nav styles
