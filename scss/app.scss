@@ -38,17 +38,9 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-section.projects {
-	background-image: url('../static/grid_l.png');
-	background-color: #444;
- 	color: #ffffff;
-	h1, h2, h3, h4, h5 {
-		color: #ffffff;
-	}
-}
 
 div.hero {
-	/*background: url('../static/bg.jpg');*/
+//	background: url('../static/bg_l.jpg');
 	background-position: center;
 	background-size: cover;
 	header {
@@ -61,7 +53,7 @@ div.hero {
 }
 
 section.projects, div.hero {
-	padding: 3rem 0;
+	padding: 1rem 0;
 }
 
 .social a, .social h1, h2, h3, h4, h5 {
