@@ -58,16 +58,14 @@ section.projects, div.hero {
 
 .social a .fa {
 		color: #fff;
-		font-size: 2.2rem;
+		font-size: rem-calc(36);
 }
 
 body > .social {
-	/*padding-top:1.875rem;*/
 	background-color: #66D9EF;
-	border-bottom: 0.32rem solid #4fa9ba;
-	padding: 0.8rem 0 0 0;
+	border-bottom: rem-calc(5) solid #4fa9ba;
 }
 
 body > .social [class*="block-grid-"]>li {
-	//padding-bottom: 0.8rem;
+	padding: rem-calc(10) 0;
 }
