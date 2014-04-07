@@ -73,17 +73,16 @@ body > .social [class*="block-grid-"]>li {
 	padding: rem-calc(10) 0;
 }
 
-.orbit-caption, .orbit-caption h3 {
-	font-weight: 400;
-	font-family: arial, verdana, sans-serif;
+.orbit-container li {
+	border: 1px solid #bbb;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
 }
 
 .orbit-container .orbit-slides-container li .orbit-caption {
-	border-top: 1px solid #eee;
-}
-
-.orbit-container li {
-	border: 1px solid #bbb;
+	font-weight: 400;
+	font-family: arial, verdana, sans-serif;
 }
 
 .preview img {
