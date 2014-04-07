@@ -713,10 +713,10 @@ $anchor-font-color-hover: scale-color($primary-color, $lightness: -25%);
 // $include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
-$orbit-container-bg: #fff;
-$orbit-caption-bg: #fff;
-$orbit-caption-font-color: #333;
-$orbit-caption-font-size: rem-calc(18);
+$orbit-container-bg: rgba(255,255,255,1);
+$orbit-caption-bg: rgba(240,240,240,0.55);
+$orbit-caption-font-color: #777;
+$orbit-caption-font-size: rem-calc(16);
 $orbit-caption-position: "under";    // Supported values: "bottom", "under"
 $orbit-caption-padding: rem-calc(16 14);
 // $orbit-caption-height: auto;
